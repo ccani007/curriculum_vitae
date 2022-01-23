@@ -49,7 +49,8 @@ tribble(
 professional_experience <- tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
   "Academic Coordinator", "School of Education", "October", 2017, "July", 2020, "Universidad de los Andes", 
-  "Arrangement of academic matters like schedules, lectures, classes and summer school for undergraduate, postgraduate and PhD programs of the School of Education. \\begin{itemize}
+  "Arrangement of academic matters like schedules, lectures, classes and summer school for undergraduate, postgraduate and PhD programs of the School of Education. 
+  \\begin{itemize}
         \\item Assess the quality of academic processes.
         \\item Support students throughout their programs and warrant their graduation.
         \\item Systematize information and use it to improve academic processes.
@@ -61,7 +62,8 @@ professional_experience <- tribble(
         \\item Supported the development of the protocol to report cases of sexual abuse and harassment (MAAD).
     \\end{itemize}",
   "Clinical manager of the Center of Psychology, Casa-Espinosa", "Department of Psychology", "February", 2014, "March", 2017, "Universidad de los Andes", 
-  "Supervised students practicum of the Master in Clinical and Health Psychology. \\begin{itemize}
+  "Supervised students practicum of the Master in Clinical and Health Psychology. 
+  \\begin{itemize}
         \\item Guided the development of intervention guidelines for the center of psychological attention.
         \\item Implemented technological features to gather information from patients to be used in further investigation.  
         \\item Represented the center at the Colombian Network of Psychological University Centers Red ISUAP 
@@ -93,13 +95,13 @@ research <- tribble(
   ~title, ~unit, ~startYear, ~endMonth, ~endYear, ~where, ~ professor, ~detail,
   "Research Assistant", "Department of psychology", 2012, "Present", NA, "Universidad de los Andes", "Yvonne Gómez, PhD", "Depression and genetics.  
   \\begin{itemize}
-  \\item Review and select literature, collect and analyze data, evaluate and write proposals for publication. 
+     \\item Review and select literature, collect and analyze data, evaluate and write proposals for publication. 
   \\end{itemize}",
   
   "Research Assistant", "Department of psychology", 2018, "January", 2019, "Universidad de los Andes", "Leonidas Castro",
   "Adaptation and Validation of the Unified Protocol for victims of armed conflict in Colombia.
   \\begin{itemize}
-  \\item Implement the Unified Protocol with victims of armed conflict in Colombia
+     \\item Implement the Unified Protocol with victims of armed conflict in Colombia
    \\end{itemize}")
 ```
 
