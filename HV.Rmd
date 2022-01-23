@@ -172,7 +172,7 @@ Gómez Y, Nicolás S, Spinel J, **Cañizares C**, Ángel J, Agudelo D, Lattig M,
 ```{r honors_tribble, include=FALSE }
 honors <-  tribble(
   ~area, ~accomplishment, ~year, ~detail, ~where,
-  "Fulbright", "Scholarship Fulbright-Minciencias", 2020, "Scholarship to conduct Docotral studies in the United States of America","Bogotá",
+  "Fulbright", "Scholarship Fulbright-Minciencias", 2020, "Scholarship to conduct Doctoral studies in the United States of America","Bogotá",
   "Spanish Center Award", "Scholarship for posgraduate studies", 2013, "Awarded for academic excellence and proficient knowledge in Spanish writing skills", "Universidad de los Andes" ) 
 
 ```
