@@ -1,0 +1,189 @@
+---
+name: Catalina
+surname: Cañizares-Escobar
+position: "PhD Student"
+address: "Florida International University"
+phone: +1 7868609327
+email: "ccani007@fiu.edu"
+twitter: CatalinaCaniza1
+github: ccani007
+orcid: 0000-0002-6854-5205
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 414141
+docname: CV
+output: vitae::awesomecv
+editor_options: 
+    page_total: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+library(tidyverse)
+library(here)
+library(readr)
+library(scholar)
+```
+
+
+
+# Education
+
+```{r education}
+
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "PhD in Social Welfare", "2020-", "Florida International University", "Miami, United States",
+  "Master in Clinical and Health Psychology", "2014", "Universidad de los Andes", "Bogotá, Colombia",
+  "Pyschology", "2012", "Universidad de los Andes", "Bogotá, Colombia"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+
+# Professional Experience
+
+```{r professional_experience_tribble, include=FALSE}
+professional_experience <- tribble(
+  ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
+  "Academic Coordinator", "School of Education", "October", 2017, "July", 2020, "Universidad de los Andes", 
+  "Arrangement of academic matters like schedules, lectures, classes and summer school for undergraduate, postgraduate and PhD programs of the School of Education. \\begin{itemize}
+        \\item Assess the quality of academic processes.
+        \\item Support students throughout their programs and warrant their graduation.
+        \\item Systematize information and use it to improve academic processes.
+    \\end{itemize}",
+  "Clinical Psychologist", "Office of student affairs", "March", 2017, "October", 2017, "Universidad de los Andes", 
+  "Provided psychological attention for undergraduate and graduate students. \\begin{itemize}
+        \\item Designed psycho-educational workshops for students.
+        \\item Mediated in disciplinary cases.
+        \\item Supported the development of the protocol to report cases of sexual abuse and harassment (MAAD).
+    \\end{itemize}",
+  "Clinical manager of the Center of Psychology, Casa-Espinosa", "Department of Psychology", "February", 2014, "March", 2017, "Universidad de los Andes", 
+  "Supervised students practicum of the Master in Clinical and Health Psychology. \\begin{itemize}
+        \\item Guided the development of intervention guidelines for the center of psychological attention.
+        \\item Implemented technological features to gather information from patients to be used in further investigation.  
+        \\item Represented the center at the Colombian Network of Psychological University Centers Red ISUAP 
+    \\end{itemize}",
+  "Clinical Practicum", "Center for Children and Families", "June", 2013, "August", 2013, "Florida International University", 
+  "Implemented the STP Protocol for children with ADHD and related behavioral and emotional challenges.",
+  "Clinical Practicum", "Casa Espinosa", "August", 2012, "May", 2013, "Universidad de los Andes", 
+  "Provided psychological attention (evaluation and intervention) to outpatients.",
+  "Clinical Practicum", "Oncology Unit: Ardila Lule", "January", 2011, "December", 2011, "Fundación Santa Fe de Bogotá", "Performed psychological evaluation for oncologic patients"
+  )
+
+```
+
+```{r professional_experience}
+professional_experience %>%
+  detailed_entries(
+    with = title,
+    what = unit,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} - {endMonth} {endYear}",.na = ""),
+    where = where, .protect = F
+  )
+```
+
+# Research
+
+```{r research_tribble,include=FALSE}
+research <- tribble(
+  ~title, ~unit, ~startYear, ~endMonth, ~endYear, ~where, ~ professor, ~detail,
+  "Research Assistant", "Department of psychology", 2012, "Present", NA, "Universidad de los Andes", "Yvonne Gómez, PhD", "Depression and genetics.  
+  \\begin{itemize}
+  \\item Review and select literature, collect and analyze data, evaluate and write proposals for publication. 
+  \\end{itemize}",
+  
+  "Research Assistant", "Department of psychology", 2018, "January", 2019, "Universidad de los Andes", "Leonidas Castro",
+  "Adaptation and Validation of the Unified Protocol for victims of armed conflict in Colombia.
+  \\begin{itemize}
+  \\item Implement the Unified Protocol with victims of armed conflict in Colombia
+   \\end{itemize}")
+```
+
+```{r research}
+
+research %>%
+  detailed_entries(
+    with = title,
+    what = unit,
+    why = detail,
+    when = glue::glue("{startYear} - {endMonth} {endYear}",.na = ""),
+    where = where, .protect = F)
+
+```
+
+
+# Teaching Experience 
+
+```{r teaching_tribble, include=FALSE }
+teaching <-  tribble(
+  ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
+  "Graduate Teaching Assistantship", "Spanish Center", "January", 2013, "December", 2013, "Universidad de los Andes", 
+  "Tutored undergraduate students in Spanish writing skills. 
+  \\begin{itemize}
+        \\item Developed and implemented activities and rubrics to evaluate skills in Spanish writing.
+        \\item Assisted the course Fundamentals of Psychology (spring, 2013 and fall, 2013).
+    \\end{itemize}",
+  
+  "Undergraduate Teaching Assistantship", "Department of Psychology", "January", 2010, "May", 2010, "Universidad de los Andes", 
+  "Assisted the course Neuroscience 1 (Spring, 2010)")
+
+```
+
+```{r teaching}
+teaching %>%
+  detailed_entries(
+    with = title,
+    what = unit,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} - {endMonth} {endYear}",.na = ""),
+    where = where, .protect = F)
+```
+
+# Publications
+
+Gomez Y, Angel J, **Cañizares C**, Lattig M, Agudelo D, Arenas A, Ferro E. (2019) The role of stressful life events appraisal in major depressive disorder.  Revista Colombiana de Psiquiatría (ISSN 0034-7450) In Press (-), pp. In Press. https://www.sciencedirect.com/science/article/pii/S003474501830088X
+
+Galeano L, Gaviria A, **Cañizares C**, Uribe C, Ferro E, Arenas A, Gómez Y, Lattig C. (2019) Assessment of Perception of Stressful life events as important factor in Major Depressive Disorder. European Neuropsychofarmacology. Volume 29, Supplement 3, pp S841-S842 https://www.sciencedirect.com/science/article/pii/S0924977X17305722
+
+Lattig M, Villamizar V, Gaviria A, Angel J, **Cañizares C**, Ferro E, Arenas A, Gómez Y. (2017) BDNF Methylation and Stress Response in a Clinical Population with Major Depressive Disorder.  Official Journal of the Society of Biological Psychiatry (ISSN 0006-3223). https://www.biologicalpsychiatryjournal.com/article/S0006-3223(17)30367-0/pdf
+
+Horn A, **Cañizares C**, Gomez Y.  (2014) Prevention of Adolescent Depression in the Spanish-Speaking. World. International Journal Of Environmental Research And Public Health (ISSN 1660-4601) 11 (6), pp. 5665-5683. https://www.mdpi.com/1660-4601/11/6/5665
+
+# Conference presentations
+
+**Cañizares C**, Macgowan M.J, (2022) Interventions for Adolescent Suicidality in Latin America: A Systematic Review. Presented at the Society for Social Work and Research 26th Annual Conference - Social Work Science for Racial, Social, and Political Justice, Washington D.C. United States of America
+
+**Cañizares C**, Gómez-Maquet Y, Velásquez M.M,  Lattig2 M.C, Uribe C, Manzanilla I, Ferro E, Agudelo DM, Arenas A. (2022). Childhood Adversity, Attributional Style, and Cognitive Schemas As Predictors of the Spanish Version of the State-Trait Depression Questionnaire Score. Presented at the Society for Social Work and Research 26th Annual Conference - Social Work Science for Racial, Social, and Political Justice, Washington D.C. United States of America
+
+Gómez Y, Nicolás S, Spinel J, **Cañizares C**, Ángel J, Agudelo D, Lattig M, Arenas A, Ferro E. (2017) Diátesis cognitiva: Esquemas Maladaptativos Tempranos (EMT) en el Trastorno Depresivo Mayor (TDM). Presented at the VIII National Psychology Congress in Santiago de Chile, Chile. 
+
+**Cañizares C**, García N. (2017) Utilización de pruebas psicométricas en psicología clínica y su relación con el entrenamiento en formulación transdiagnóstica en un programa de maestría clínica y de la salud. Presented at Congreso Colombiano de Psicología: Psicología y Construcción de Paz, Medellín, Colombia.
+
+**Cañizares C**, Martinéz M, Estupiñan N, Gutiérrez, C.(2015) Desarrollo de Guías Clínicas en la Casa Espinosa-Centro de prácticas de Psicología Clínica, Universidad de los Andes. Panelist at the IV Forum of Clinical and Health Intervention Guidelines, Bogotá, Colombia.  
+
+# Honors
+
+```{r honors_tribble, include=FALSE }
+honors <-  tribble(
+  ~area, ~accomplishment, ~year, ~detail, ~where,
+  "Fulbright", "Scholarship Fulbright-Minciencias", 2020, "Scholarship to conduct Docotral studies in the United States of America","Bogotá",
+  "Spanish Center Award", "Scholarship for posgraduate studies", 2013, "Awarded for academic excellence and proficient knowledge in Spanish writing skills", "Universidad de los Andes" ) 
+
+```
+
+```{r honors}
+honors %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+```
+
+
