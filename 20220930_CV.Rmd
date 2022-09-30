@@ -93,12 +93,15 @@ professional_experience %>%
 ```{r research_tribble,include=FALSE}
 research <- tribble(
   ~title, ~unit, ~startYear, ~endMonth, ~endYear, ~where, ~ professor, ~detail,
-  "Research Assistant", "Department of psychology", 2012, "Present", NA, "Universidad de los Andes", "Yvonne Gómez, PhD", "Depression and genetics.  
+  "Research Assistant", "School of Social Work", 2022, "Present", NA, "Boston College", "Maria Piñeros-Leaño, Ph.D.", "Mothers and Children of All Nations Defying the Odds.  \\begin{itemize}
+     \\item Analysis of qualitative data. 
+  \\end{itemize}",  
+  "Research Assistant", "Department of psychology", 2012, "Present", NA, "Universidad de los Andes", "Yvonne Gómez, Ph.D.", "Depression and genetics.  
   \\begin{itemize}
      \\item Review and select literature, collect and analyze data, evaluate and write proposals for publication. 
   \\end{itemize}",
   
-  "Research Assistant", "Department of psychology", 2018, "January", 2019, "Universidad de los Andes", "Leonidas Castro",
+  "Research Assistant", "Department of psychology", 2018, "January", 2019, "Universidad de los Andes", "Leonidas Castro Ph.D.",
   "Adaptation and Validation of the Unified Protocol for victims of armed conflict in Colombia.
   \\begin{itemize}
      \\item Implement the Unified Protocol with victims of armed conflict in Colombia
@@ -123,6 +126,7 @@ research %>%
 ```{r teaching_tribble, include=FALSE }
 teaching <-  tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
+  "Teacher Assistant", "Bistatistics",  "June", 2022, "August", 2022, "Florida International University", "Assisted the Avanced R class for posgraduate students", 
   "Graduate Teaching Assistantship", "Spanish Center", "January", 2013, "December", 2013, "Universidad de los Andes", 
   "Tutored undergraduate students in Spanish writing skills. 
   \\begin{itemize}
@@ -147,6 +151,8 @@ teaching %>%
 
 # Publications
 
+Gómez‑Maquet, Y., Velásquez, M. M., Cañizares, C., Uribe, C., Manzanilla, I., Ferro, E., Agudelo, D. M., Arenas, Á., & Lattig, M. C. (2022). The role of cognitive schemas and childhood adversity in the likelihood of developing Major Depressive Disorder. Revista Latinoamericana de Psicología, 54. https://doi.org/10.14349/rlp.2022.v54.8
+
 Gomez Y, Angel J, **Cañizares C**, Lattig M, Agudelo D, Arenas A, Ferro E. (2019) The role of stressful life events appraisal in major depressive disorder.  Revista Colombiana de Psiquiatría (ISSN 0034-7450) In Press (-), pp. In Press. https://www.sciencedirect.com/science/article/pii/S003474501830088X
 
 Galeano L, Gaviria A, **Cañizares C**, Uribe C, Ferro E, Arenas A, Gómez Y, Lattig C. (2019) Assessment of Perception of Stressful life events as important factor in Major Depressive Disorder. European Neuropsychofarmacology. Volume 29, Supplement 3, pp S841-S842 https://www.sciencedirect.com/science/article/pii/S0924977X17305722
@@ -154,6 +160,11 @@ Galeano L, Gaviria A, **Cañizares C**, Uribe C, Ferro E, Arenas A, Gómez Y, La
 Lattig M, Villamizar V, Gaviria A, Angel J, **Cañizares C**, Ferro E, Arenas A, Gómez Y. (2017) BDNF Methylation and Stress Response in a Clinical Population with Major Depressive Disorder.  Official Journal of the Society of Biological Psychiatry (ISSN 0006-3223). https://www.biologicalpsychiatryjournal.com/article/S0006-3223(17)30367-0/pdf
 
 Horn A, **Cañizares C**, Gomez Y.  (2014) Prevention of Adolescent Depression in the Spanish-Speaking. World. International Journal Of Environmental Research And Public Health (ISSN 1660-4601) 11 (6), pp. 5665-5683. https://www.mdpi.com/1660-4601/11/6/5665
+
+# Software development 
+Cañizares, C., Macgowan, M., Odom, G (2022). tidyDisasters. https://github.com/ccani007/tidyDisasters.git
+
+Cañizares, C., Macgowan, M., Odom, G (2022). tidyYRBS. https://github.com/ccani007/tidyYRBS.git
 
 # Conference presentations
 
