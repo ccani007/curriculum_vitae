@@ -168,9 +168,11 @@ Cañizares, C., Macgowan, M., Odom, G (2022). tidyYRBS. https://github.com/ccani
 
 # Conference presentations
 
-**Cañizares C**, Macgowan M.J, (2022) Interventions for Adolescent Suicidality in Latin America: A Systematic Review. Presented at the Society for Social Work and Research 26th Annual Conference - Social Work Science for Racial, Social, and Political Justice, Washington D.C. United States of America
+**Cañizares C**, Macgowan M.J, Odom G., (2022) It Just Takes a Question: The Development of tidyDisasters and tidyYRBS. *Invited Speaker* at the Data Science Conference US Health 22, Miami, FL. 
 
-**Cañizares C**, Gómez-Maquet Y, Velásquez M.M,  Lattig2 M.C, Uribe C, Manzanilla I, Ferro E, Agudelo DM, Arenas A. (2022). Childhood Adversity, Attributional Style, and Cognitive Schemas As Predictors of the Spanish Version of the State-Trait Depression Questionnaire Score. Presented at the Society for Social Work and Research 26th Annual Conference - Social Work Science for Racial, Social, and Political Justice, Washington D.C. United States of America
+**Cañizares C**, Macgowan M.J, (2022) Interventions for Adolescent Suicidality in Latin America: A Systematic Review. *Poster* at the Society for Social Work and Research 26th Annual Conference - Social Work Science for Racial, Social, and Political Justice, Washington D.C. United States of America
+
+**Cañizares C**, Gómez-Maquet Y, Velásquez M.M,  Lattig2 M.C, Uribe C, Manzanilla I, Ferro E, Agudelo DM, Arenas A. (2022). Childhood Adversity, Attributional Style, and Cognitive Schemas As Predictors of the Spanish Version of the State-Trait Depression Questionnaire Score. *Poster* at the Society for Social Work and Research 26th Annual Conference - Social Work Science for Racial, Social, and Political Justice, Washington D.C. United States of America
 
 Gómez Y, Nicolás S, Spinel J, **Cañizares C**, Ángel J, Agudelo D, Lattig M, Arenas A, Ferro E. (2017) Diátesis cognitiva: Esquemas Maladaptativos Tempranos (EMT) en el Trastorno Depresivo Mayor (TDM). Presented at the VIII National Psychology Congress in Santiago de Chile, Chile. 
 
