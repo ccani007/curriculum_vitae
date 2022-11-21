@@ -168,6 +168,8 @@ Cañizares, C., Macgowan, M., Odom, G (2022). tidyYRBS. https://github.com/ccani
 
 # Conference presentations
 
+Bursac Z, Rodriguez A, Williams R, Bhoite P, Gonzalez I, **Canizares C**, Odom G. R for Data Science in Public Health. International Data Science Conference Europe 22, Belgrade, Serbia.
+
 **Cañizares C**, Macgowan M.J, Odom G., (2022) It Just Takes a Question: The Development of tidyDisasters and tidyYRBS. *Invited Speaker* at the Data Science Conference US Health 22, Miami, FL. 
 
 **Cañizares C**, Macgowan M.J, (2022) Interventions for Adolescent Suicidality in Latin America: A Systematic Review. *Poster* at the Society for Social Work and Research 26th Annual Conference - Social Work Science for Racial, Social, and Political Justice, Washington D.C. United States of America
