@@ -1,7 +1,7 @@
 ---
 name: Catalina
 surname: Cañizares-Escobar
-position: "PhD Student"
+position: "PhD Candidate"
 address: "Florida International University"
 phone: +1 00000000
 email: "ccani007@fiu.edu"
