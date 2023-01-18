@@ -151,7 +151,7 @@ teaching %>%
 
 # Publications
 
-Gómez‑Maquet, Y., Velásquez, M. M., Cañizares, C., Uribe, C., Manzanilla, I., Ferro, E., Agudelo, D. M., Arenas, Á., & Lattig, M. C. (2022). The role of cognitive schemas and childhood adversity in the likelihood of developing Major Depressive Disorder. Revista Latinoamericana de Psicología, 54. https://doi.org/10.14349/rlp.2022.v54.8
+Gómez‑Maquet, Y., Velásquez, M. M., **Cañizares C**., Uribe, C., Manzanilla, I., Ferro, E., Agudelo, D. M., Arenas, Á., & Lattig, M. C. (2022). The role of cognitive schemas and childhood adversity in the likelihood of developing Major Depressive Disorder. Revista Latinoamericana de Psicología, 54. https://doi.org/10.14349/rlp.2022.v54.8
 
 Gomez Y, Angel J, **Cañizares C**, Lattig M, Agudelo D, Arenas A, Ferro E. (2019) The role of stressful life events appraisal in major depressive disorder.  Revista Colombiana de Psiquiatría (ISSN 0034-7450) In Press (-), pp. In Press. https://www.sciencedirect.com/science/article/pii/S003474501830088X
 
@@ -162,17 +162,22 @@ Lattig M, Villamizar V, Gaviria A, Angel J, **Cañizares C**, Ferro E, Arenas A,
 Horn A, **Cañizares C**, Gomez Y.  (2014) Prevention of Adolescent Depression in the Spanish-Speaking. World. International Journal Of Environmental Research And Public Health (ISSN 1660-4601) 11 (6), pp. 5665-5683. https://www.mdpi.com/1660-4601/11/6/5665
 
 # Software development 
-Cañizares, C., Macgowan, M., Odom, G (2022). tidyDisasters. https://github.com/ccani007/tidyDisasters.git
+Cañizares C, Macgowan M, Odom G (2022). tidyDisasters: A relational database of FEMA, EMDAT, and GTD disaster data sets. R package version 0.1.1, https://ccani007.github.io/tidyDisasters/.
+
 
 Cañizares, C., Macgowan, M., Odom, G (2022). tidyYRBS. https://github.com/ccani007/tidyYRBS.git
 
 # Conference presentations
 
-Bursac Z, Rodriguez A, Williams R, Bhoite P, Gonzalez I, **Canizares C**, Odom G. R for Data Science in Public Health. International Data Science Conference Europe 22, Belgrade, Serbia.
+**Cañizares C** (2023) Contributing to Scientific Reproducibility: Using R Markdown and Knitr to create reproducible research documents. *Presented at* the Society for Social Work and Research 27th Annual Conference - Battling Inequities and Building Solutions, Phoenix, AZ. 
 
-**Cañizares C**, Macgowan M.J, Odom G., (2022) It Just Takes a Question: The Development of tidyDisasters and tidyYRBS. *Invited Speaker* at the Data Science Conference US Health 22, Miami, FL. 
+**Cañizares C**, Macgowan M.J, Odom G. (2023) Risk Factors Associated with Suicide Attempts in U.S High School Students Since 2005: A Replication Study *Presented at* at the Society for Social Work and Research 27th Annual Conference - Battling Inequities and Building Solutions, Phoenix, AZ. 
 
-**Cañizares C**, Macgowan M.J, (2022) Interventions for Adolescent Suicidality in Latin America: A Systematic Review. *Poster* at the Society for Social Work and Research 26th Annual Conference - Social Work Science for Racial, Social, and Political Justice, Washington D.C. United States of America
+Bursac Z, Rodriguez A, Williams R, Bhoite P, Gonzalez I, **Cañizares C**, Odom G. (2022) R for Data Science in Public Health. *Presented at* the International Data Science Conference Europe,  Belgrade, Serbia.
+
+**Cañizares C**, Macgowan M.J, Odom G. (2022) It Just Takes a Question: The Development of tidyDisasters and tidyYRBS. *Invited Speaker* at the Data Science Conference US Health, Miami, FL. 
+
+**Cañizares C**, Macgowan M.J. (2022) Interventions for Adolescent Suicidality in Latin America: A Systematic Review. *Poster* at the Society for Social Work and Research 26th Annual Conference - Social Work Science for Racial, Social, and Political Justice, Washington D.C. United States of America
 
 **Cañizares C**, Gómez-Maquet Y, Velásquez M.M,  Lattig2 M.C, Uribe C, Manzanilla I, Ferro E, Agudelo DM, Arenas A. (2022). Childhood Adversity, Attributional Style, and Cognitive Schemas As Predictors of the Spanish Version of the State-Trait Depression Questionnaire Score. *Poster* at the Society for Social Work and Research 26th Annual Conference - Social Work Science for Racial, Social, and Political Justice, Washington D.C. United States of America
 
