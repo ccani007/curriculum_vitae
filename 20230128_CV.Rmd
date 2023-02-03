@@ -14,8 +14,6 @@ docname: CV
 output: 
   vitae::awesomecv:
     pandoc_args: ["--lua-filter=strong.lua"] 
-editor_options: 
-    page_total: true
 ---
 
 ```{r setup, include=FALSE}
@@ -52,7 +50,7 @@ tribble(
 research <- tribble(
   ~title, ~unit, ~startYear, ~endMonth, ~endYear, ~where, ~ professor, ~detail,
   "Research Assistant", "School of Social Work", 2022, "Present", NA, "Boston College", "Maria Piñeros-Leaño, Ph.D.", "Mothers and Children of All Nations Defying the Odds.  \\begin{itemize}
-     \\item Analysis of qualitative data. 
+     \\item Analysis of qualitative data
   \\end{itemize}",  
   "Research Assistant", "Department of psychology", 2012, "Present", NA, "Universidad de los Andes", "Yvonne Gómez, Ph.D.", "Depression and genetics.  
   \\begin{itemize}
@@ -84,7 +82,8 @@ research %>%
 ```{r teaching_tribble, include=FALSE }
 teaching <-  tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-  "Teacher Assistant", "Bistatistics",  "June", 2022, "August", 2022, "Florida International University", "Assisted the Avanced R class for posgraduate students", 
+   "Teacher Assistant", "Biostatistics",  "January", 2023, "April", 2023, "Florida International University", "Avanced R for posgraduate students",
+  "Teacher Assistant", "Biostatistics",  "June", 2022, "August", 2022, "Florida International University", "Avanced R for posgraduate students", 
   "Graduate Teaching Assistantship", "Spanish Center", "January", 2013, "December", 2013, "Universidad de los Andes", 
   "Tutored undergraduate students in Spanish writing skills. 
   \\begin{itemize}
@@ -124,24 +123,9 @@ bibliography_entries("Software.bib")
 
 # Conference presentations
 
-**Cañizares C** (2023) Contributing to Scientific Reproducibility: Using R Markdown and Knitr to create reproducible research documents. *Presented at* the Society for Social Work and Research 27th Annual Conference - Battling Inequities and Building Solutions, Phoenix, AZ. 
-
-**Cañizares C**, Macgowan M.J, Odom G. (2023) Risk Factors Associated with Suicide Attempts in U.S High School Students Since 2005: A Replication Study *Presented at* at the Society for Social Work and Research 27th Annual Conference - Battling Inequities and Building Solutions, Phoenix, AZ. 
-
-Bursac Z, Rodriguez A, Williams R, Bhoite P, Gonzalez I, **Cañizares C**, Odom G. (2022) R for Data Science in Public Health. *Presented at* the International Data Science Conference Europe,  Belgrade, Serbia.
-
-**Cañizares C**, Macgowan M.J, Odom G. (2022) It Just Takes a Question: The Development of tidyDisasters and tidyYRBS. *Invited Speaker* at the Data Science Conference US Health, Miami, FL. 
-
-**Cañizares C**, Macgowan M.J. (2022) Interventions for Adolescent Suicidality in Latin America: A Systematic Review. *Poster* at the Society for Social Work and Research 26th Annual Conference - Social Work Science for Racial, Social, and Political Justice, Washington D.C. United States of America
-
-**Cañizares C**, Gómez-Maquet Y, Velásquez M.M,  Lattig2 M.C, Uribe C, Manzanilla I, Ferro E, Agudelo DM, Arenas A. (2022). Childhood Adversity, Attributional Style, and Cognitive Schemas As Predictors of the Spanish Version of the State-Trait Depression Questionnaire Score. *Poster* at the Society for Social Work and Research 26th Annual Conference - Social Work Science for Racial, Social, and Political Justice, Washington D.C. United States of America
-
-Gómez Y, Nicolás S, Spinel J, **Cañizares C**, Ángel J, Agudelo D, Lattig M, Arenas A, Ferro E. (2017) Diátesis cognitiva: Esquemas Maladaptativos Tempranos (EMT) en el Trastorno Depresivo Mayor (TDM). Presented at the VIII National Psychology Congress in Santiago de Chile, Chile. 
-
-**Cañizares C**, García N. (2017) Utilización de pruebas psicométricas en psicología clínica y su relación con el entrenamiento en formulación transdiagnóstica en un programa de maestría clínica y de la salud. Presented at Congreso Colombiano de Psicología: Psicología y Construcción de Paz, Medellín, Colombia.
-
-**Cañizares C**, Martinéz M, Estupiñan N, Gutiérrez, C.(2015) Desarrollo de Guías Clínicas en la Casa Espinosa-Centro de prácticas de Psicología Clínica, Universidad de los Andes. Panelist at the IV Forum of Clinical and Health Intervention Guidelines, Bogotá, Colombia.  
-
+```{r}
+bibliography_entries("Presentations.bib") 
+```
 
 
 # Skills
