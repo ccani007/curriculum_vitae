@@ -12,8 +12,7 @@ date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 414141
 docname: CV
 output: 
-  vitae::awesomecv:
-    pandoc_args: ["--lua-filter=strong.lua"] 
+  vitae::awesomecv
 ---
 
 ```{r setup, include=FALSE}
@@ -130,7 +129,7 @@ teaching %>%
 # Publications
 
 ```{r}
-bibliography_entries("Publications.bib") %>% 
+bibliography_entries("bib/Publications.bib") %>% 
   arrange(desc(issued))
 ```
 
@@ -138,14 +137,14 @@ bibliography_entries("Publications.bib") %>%
 # Software development 
 
 ```{r}
-bibliography_entries("Software.bib") 
+bibliography_entries("bib/Software.bib") 
 ```
 
 
 # Conference presentations
 
 ```{r}
-bibliography_entries("Presentations.bib") 
+bibliography_entries("bib/Presentations.bib") 
 ```
 
 
