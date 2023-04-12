@@ -32,7 +32,7 @@ library(scholar)
 
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "PhD in Social Welfare", "2020-", "Florida International University", "Miami, United States",
+  "PhD in Social Welfare", "Current", "Florida International University", "Miami, United States",
   "Master in Clinical and Health Psychology", "2014", "Universidad de los Andes", "Bogotá, Colombia",
   "Pyschology", "2012", "Universidad de los Andes", "Bogotá, Colombia"
 ) %>% 
@@ -163,9 +163,11 @@ bibliography_entries("bib/Presentations.bib")
 honors <-  tribble(
   ~area, ~accomplishment, ~year, ~detail, ~where,
   
-   "The Stempel Travel Award", "Robert Stempel College of Public Health and Social Work", 2023, "Support to graduate students in FIU Stempel College to attend conferences", "Miami, FL",
+  "The C.V. Starr Scholarship", "Robert Stempel College of Public Health and Social Work", 2023, "Scholarship for Latin America and The Caribbean  doctoral students with an award of up to $27,941", "Miami, FL",
   
-  "Fulbright", "Scholarship Fulbright-Minciencias", 2020, "Scholarship to conduct Doctoral studies in the United States of America","Bogotá",
+   "The Stempel Travel Award", "Robert Stempel College of Public Health and Social Work", 2023, "Award to graduate students in FIU Stempel College to attend conferences of up to $750", "Miami, FL",
+  
+  "Fulbright", "Scholarship Fulbright-Minciencias", 2020, "Scholarship for Doctoral studies in the United States of America for $330.000.000 COP","Bogotá",
   
   "Spanish Center Award", "Scholarship for posgraduate studies", 2013, "Awarded for academic excellence and proficient knowledge in Spanish writing skills", "Universidad de los Andes" ) 
 
