@@ -24,8 +24,6 @@ library(readr)
 library(scholar)
 ```
 
-
-
 # Education
 
 ```{r education}
@@ -38,9 +36,6 @@ tribble(
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```
-
-
-
 
 # Research
 
@@ -87,8 +82,7 @@ research %>%
 
 ```
 
-
-# Teaching Experience 
+# Teaching Experience
 
 ```{r teaching_tribble, include=FALSE }
 teaching <-  tribble(
@@ -132,13 +126,11 @@ bibliography_entries("bib/Publications.bib") %>%
   arrange(desc(issued))
 ```
 
-
-# Software development 
+# Software development
 
 ```{r}
 bibliography_entries("bib/Software.bib") 
 ```
-
 
 # Conference presentations
 
@@ -146,9 +138,16 @@ bibliography_entries("bib/Software.bib")
 bibliography_entries("bib/Presentations.bib") 
 ```
 
+# Works in Progress
+
+```{r}
+bibliography_entries("bib/In_progress.bib") 
+```
+
 
 # Skills
 
+```{=tex}
 \begin{cvskills}  
 \cvskill    {Software}    {Microsoft Office, SPSS, ATLAS.ti, Nvivo, Dedoose}      
 \cvskill    {Programming Languages}    {R, Python}  
@@ -156,7 +155,7 @@ bibliography_entries("bib/Presentations.bib")
 \cvskill    {DevOps}    {Git, GitHub}      
 \cvskill    {Web development}    {Wordpress, GitHub Pages, Netlify}  \cvskill    {Languages}    {Spanish, English}
 \end{cvskills}
-
+```
 # Honors and grants
 
 ```{r honors_tribble, include=FALSE }
@@ -183,7 +182,6 @@ honors %>%
     where = where
   )
 ```
-
 
 # Professional Experience
 
@@ -226,4 +224,3 @@ professional_experience %>%
     where = where, .protect = F
   )
 ```
-
