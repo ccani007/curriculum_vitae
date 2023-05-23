@@ -54,7 +54,7 @@ research <- tribble(
      \\item Build the strategy to collect data and grant application support 
   \\end{itemize}", 
   
-  "Research Assistant", "School of Social Work", 2022, 
+  "Research Assistant as an Independent Contractor", "School of Social Work", 2022, 
   "Present", NA, "Boston College", 
   "Maria Piñeros-Leaño, Ph.D.", "Mothers and Children of All Nations Defying the Odds.  
   \\begin{itemize}
