@@ -87,7 +87,7 @@ research %>%
 ```{r teaching_tribble, include=FALSE }
 teaching <-  tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-      
+  "Teacher Assistant", "R Medicine 2023", "June", 2023, "June", 2023, "Virtual Conference", "R Medicine 101: Introduction to Clinical Data Analysis with R",   
    "Instructor", "The Research Centers in Minority Institutions (RCMI) Consortium", 
   "February", 2023, "May", 2023, "Morehouse School of Medicine", "A 10-week national series to the R Programming language, using a modified version of the R for Reproducible Scientific Analysis Data Carpentry curriculum", 
   
@@ -159,7 +159,7 @@ bibliography_entries("bib/In_progress.bib")
 
 
 
-# Honors and grants
+# Honors
 
 ```{r honors_tribble, include=FALSE }
 honors <-  tribble(
