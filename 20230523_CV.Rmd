@@ -156,11 +156,16 @@ bibliography_entries("bib/In_progress.bib")
 \cvskill    {Web development}    {Wordpress, GitHub Pages, Netlify}  \cvskill    {Languages}    {Spanish, English}
 \end{cvskills}
 ```
+
+
+
 # Honors and grants
 
 ```{r honors_tribble, include=FALSE }
 honors <-  tribble(
   ~area, ~accomplishment, ~year, ~detail, ~where,
+  
+  "Honorable Mention: NIDA International Poster Session", "Society for Prevention Research", 2023, "Honorable Mention for Poster Hopelessness in Youth: A Supervised Machine Learning Classification Approach to Identify Risk Factors. Prize: SPR Membership for 2024", "Washington, D.C",
   
   "The C.V. Starr Scholarship", "Robert Stempel College of Public Health and Social Work", 2023, "Scholarship for Latin America and The Caribbean  doctoral students with an award of up to $27,941", "Miami, FL",
   
@@ -180,6 +185,29 @@ honors %>%
     why = detail,
     when = year,
     where = where
+  )
+```
+
+# Professional Membership
+
+```{r membership}
+professional_membership <- tribble(
+  ~title, ~member, ~startYear, ~endYear, 
+  "Society for Social Work and Research", "Member", 2021, "Present", 
+  "Society for Prevention Research", "Member", 2023, "Present", 
+  "International Association for Social Work With Groups", "Member", 2023, "Present", 
+  "American Psychological Association", "Member", 2022, "2023"
+)
+```
+
+
+```{r membership_table}
+professional_membership%>%
+  detailed_entries(
+    with = title,
+    what = member,
+    when = glue::glue("{startYear} - {endYear}",.na = ""),
+    .protect = F
   )
 ```
 
