@@ -92,7 +92,7 @@ teaching <-  tribble(
    "Instructor", "The Research Centers in Minority Institutions (RCMI) Consortium", 
   "February", 2023, "May", 2023, "Morehouse School of Medicine", "A 10-week national series to the R Programming language, using a modified version of the R for Reproducible Scientific Analysis Data Carpentry curriculum", 
   
-  "Helper", "Institute for Data Science and Computing", "February", 2023, "February", 2023, "Miami University", "Facilitated educational sessions on Git, Shell, and R using the Data Carpentry curriculum", 
+  "Teacher Assistant", "Institute for Data Science and Computing", "February", 2023, "February", 2023, "Miami University", "Facilitated educational sessions on Git, Shell, and R using the Data Carpentry curriculum", 
   
    "Teacher Assistant", "Biostatistics",  "January", 2023, "April", 2023, "Florida International University", "Avanced R for posgraduate students",
   
