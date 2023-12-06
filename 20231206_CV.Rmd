@@ -139,7 +139,7 @@ bibliography_entries("bib/Software.bib")
 bibliography_entries("bib/Presentations.bib") 
 ```
 
-# Works in Progress
+# Work in Progress
 
 ```{r}
 bibliography_entries("bib/In_progress.bib") 
@@ -152,7 +152,7 @@ bibliography_entries("bib/In_progress.bib")
 \begin{cvskills}  
 \cvskill    {Software}    {Microsoft Office, SPSS, ATLAS.ti, Nvivo, Dedoose}      
 \cvskill    {Programming Languages}    {R, Python}  
-\cvskill    {Reproducible Report}    {Quarto, Markdown/Rmarkdown, R shiny apps, LaTeX, Jupyter Notebook}  
+\cvskill    {Reproducible Report}    {Quarto, Markdown/Rmarkdown, R shiny apps, Jupyter Notebook}  
 \cvskill    {DevOps}    {Git, GitHub}      
 \cvskill    {Web development}    {Wordpress, GitHub Pages, Netlify}  \cvskill    {Languages}    {Spanish, English}
 \end{cvskills}
