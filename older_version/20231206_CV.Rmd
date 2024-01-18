@@ -139,6 +139,13 @@ bibliography_entries("bib/Software.bib")
 bibliography_entries("bib/Presentations.bib") 
 ```
 
+# Workshops
+
+```{r}
+bibliography_entries("bib/Workshops.bib") 
+```
+
+
 # Work in Progress
 
 ```{r}
