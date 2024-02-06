@@ -174,6 +174,8 @@ honors <-  tribble(
   
   "Doctoral Student Travel Award", "Society for Social Work and Research (SSWR)", 2024, "Award to increase the diversity of doctoral student presenters from underrepresented groups, Prize: $500", "Washington, D.C",
   
+  "Honorable Mention: NIDA International Poster Session", "Society for Prevention Research", 2023, "Honorable Mention for Poster Hopelessness in Youth: A Supervised Machine Learning Classification Approach to Identify Risk Factors. Prize: SPR Membership for 2024", "Washington, D.C",
+  
   "The C.V. Starr Scholarship", "Robert Stempel College of Public Health and Social Work", 2023, "Scholarship for Latin America and The Caribbean  doctoral students with an award of up to $27,941", "Miami, FL",
   
    "The Stempel Travel Award", "Robert Stempel College of Public Health and Social Work", 2023, "Award to graduate students in FIU Stempel College to attend conferences of up to $750", "Miami, FL",
