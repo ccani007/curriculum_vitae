@@ -21,7 +21,7 @@ title: "References for Literature Table"
 author: "Catalina"
 format: docx
 bibliography: 
-  - bib/Publications.bib
+  - bib/In_progress.bib
 
 execute: 
   echo: false
