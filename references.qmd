@@ -1,0 +1,32 @@
+---
+title: "References for literature table"
+author: "Catalina"
+format: docx
+bibliography: 
+  - bib/In_progress.bib
+  - bib/Presentations.bib
+  - bib/Publications.bib
+  - bib/Software.bib
+  - bib/Workshops.bib 
+execute: 
+  echo: false
+csl: apa-cv.csl
+editor_options: 
+  chunk_output_type: console
+self-contained: true
+nocite: '@*'
+---
+---
+title: "References for Literature Table"
+author: "Catalina"
+format: docx
+bibliography: 
+  - bib/Publications.bib
+
+execute: 
+  echo: false
+csl: apa-cv.csl
+editor_options: 
+  chunk_output_type: console
+self-contained: true
+---
